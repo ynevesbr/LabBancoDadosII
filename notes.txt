@@ -1,0 +1,20 @@
+REMOVER PARAMETRO NOT NULL
+
+ALTER TABLE CUSTOMERS
+	ALTER COLUMN POSTALCODE DROP NOT NULL;
+	
+PARA SETAR PARAMETRO ALTERA O DROP POR SET
+
+INSERT INTO products VALUES (77, 'Original Frankfurter grüne Soße', 12, 2, '12 boxes', 13, 32, 0, 15, cast(0 as bit(0)));
+
+
+Select * from pg_tables
+	where schemaname = 'public';
+	
+SELECT
+   relname,
+   seq_tup_read
+FROM
+   pg_stat_user_tables
+ORDER BY
+   seq_tup_read DESC;
